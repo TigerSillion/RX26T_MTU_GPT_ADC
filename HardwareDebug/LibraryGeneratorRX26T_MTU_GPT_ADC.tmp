@@ -1,0 +1,6 @@
+-MAKEUD_LBG="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\HardwareDebug\\RX26T_MTU_GPT_ADC_lbg.ud" 
+-isa=rxv3 
+-lang=c99 
+-head=runtime,stdio,stdlib,string,new 
+-output="RX26T_MTU_GPT_ADC.lib" 
+-nologo

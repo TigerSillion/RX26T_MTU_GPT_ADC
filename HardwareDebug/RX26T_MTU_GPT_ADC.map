@@ -1,0 +1,121 @@
+Renesas Optimizing Linker (V3.06.00 )             22-Jun-2025 19:55:23
+
+*** Options ***
+
+-subcommand=LinkerRX26T_MTU_GPT_ADC.tmp
+-MAKEUD="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\HardwareDebug/RX26T_MTU_GPT_ADC_l.ud" 
+-noprelink 
+-input=".\src\RX26T_MTU_GPT_ADC.obj"
+-input=".\src/smc_gen/Config_CMT0\Config_CMT0.obj"
+-input=".\src/smc_gen/Config_CMT0\Config_CMT0_user.obj"
+-input=".\src/smc_gen/Config_DA\Config_DA.obj"
+-input=".\src/smc_gen/Config_DA\Config_DA_user.obj"
+-input=".\src/smc_gen/Config_MTU3_MTU4\Config_MTU3_MTU4.obj"
+-input=".\src/smc_gen/Config_MTU3_MTU4\Config_MTU3_MTU4_user.obj"
+-input=".\src/smc_gen/Config_POE\Config_POE.obj"
+-input=".\src/smc_gen/Config_POE\Config_POE_user.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT.obj"
+-input=".\src/smc_gen/Config_PORT\Config_PORT_user.obj"
+-input=".\src/smc_gen/Config_S12AD0\Config_S12AD0.obj"
+-input=".\src/smc_gen/Config_S12AD0\Config_S12AD0_user.obj"
+-input=".\src/smc_gen/general\r_cg_hardware_setup.obj"
+-input=".\src/smc_gen/general\r_smc_cgc.obj"
+-input=".\src/smc_gen/general\r_smc_cgc_user.obj"
+-input=".\src/smc_gen/general\r_smc_interrupt.obj"
+-input=".\src/smc_gen/r_bsp/board/generic_rx26t\hwsetup.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\dbsct.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\lowlvl.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\lowsrc.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\mcu_locks.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_common.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_cpu.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_interrupts.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_locking.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_mcu_startup.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_bsp_software_interrupt.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\r_rx_intrinsic_functions.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\resetprg.obj"
+-input=".\src/smc_gen/r_bsp/mcu/all\sbrk.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx26t\mcu_clocks.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx26t\mcu_init.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx26t\mcu_interrupts.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx26t\mcu_mapped_interrupts.obj"
+-input=".\src/smc_gen/r_bsp/mcu/rx26t\vecttbl.obj"
+-input=".\src/smc_gen/r_pincfg\Pin.obj"
+-library=".\RX26T_MTU_GPT_ADC.lib"
+-start=SU,SI,B_1,R_1,B_2,R_2,B,R/04,PResetPRG,C_1,C_2,C,C$*,D*,W*,L,P/0FFF80000,EXCEPTVECT/0FFFFFF80,RESETVECT/0FFFFFFFC
+-output="RX26T_MTU_GPT_ADC.abs" 
+-form=absolute 
+-nomessage 
+-vect=_undefined_interrupt_source_isr 
+-list=RX26T_MTU_GPT_ADC.map 
+-nooptimize 
+-rom=D=R,D_1=R_1,D_2=R_2 
+-cpu=RAM=00000000-0000ffff,FIX=00080000-00083fff,FIX=00086000-00087fff,FIX=00088000-0009ffff,FIX=000a0000-000a3fff,FIX=000a6000-000bffff,FIX=000c0000-000dffff,FIX=000e0000-000fffff,ROM=00100000-00103fff,RAM=00120040-001200af,FIX=007fb174-007fb177,FIX=007fb17c-007fb17f,FIX=007fb1e4-007fb1eb,FIX=007fe000-007fffff,ROM=fff80000-ffffffff 
+-nologo
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+SU
+                                  00000004  00001003      1000   4
+SI
+                                  00001004  00001403       400   4
+B_1
+                                  00001404  0000142f        2c   1
+R_1
+                                  00001430  00001480        51   1
+B_2
+                                  00001482  00001619       198   2
+R_2
+                                  0000161a  0000161f         6   2
+B
+                                  00001620  00001d47       728   4
+R
+                                  00001d48  00001fa3       25c   4
+$ADDR_C_120040
+                                  00120040  00120043         4   1
+$ADDR_C_120048
+                                  00120048  0012004b         4   1
+$ADDR_C_120050
+                                  00120050  0012006f        20   1
+$ADDR_C_120090
+                                  00120090  00120093         4   1
+$ADDR_C_1200A0
+                                  001200a0  001200a3         4   1
+PResetPRG
+                                  fff80000  fff80063        64   1
+C_1
+                                  fff80064  fff80135        d2   1
+C_2
+                                  fff80136  fff80b3d       a08   2
+C
+                                  fff80b40  fff80be7        a8   4
+C$DSEC
+                                  fff80be8  fff80c0b        24   4
+C$BSEC
+                                  fff80c0c  fff80c23        18   4
+C$VECT
+                                  fff80c24  fff81023       400   4
+D_2
+                                  fff81024  fff81029         6   2
+D
+                                  fff8102c  fff81287       25c   4
+D_1
+                                  fff81288  fff812d8        51   1
+W
+                                  fff812dc  fff812dc         0   4
+W_1
+                                  fff812dc  fff812eb        10   1
+W_2
+                                  fff812ec  fff812ec         0   2
+L
+                                  fff812ec  fff813b0        c5   4
+P
+                                  fff813b1  fff8474b      339b   1
+EXCEPTVECT
+                                  ffffff80  fffffffb        7c   4
+RESETVECT
+                                  fffffffc  ffffffff         4   4

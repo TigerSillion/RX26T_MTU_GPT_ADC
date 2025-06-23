@@ -1,0 +1,25 @@
+-isa=rxv3
+-MAKEUD="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\HardwareDebug\src\smc_gen\r_bsp\mcu\all"
+-include="C:\Program Files (x86)\Renesas\RX\3_6_0\/include"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\r_config"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\r_bsp"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\general"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\r_pincfg"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_S12AD0"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_MTU3_MTU4"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_POE"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_DA"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_CMT0"
+-include="C:\e2s_workspace\e2workspace_202307_01\RX_Motor_202307\RX26T_MTU_GPT_ADC\src\smc_gen\Config_PORT"
+-asmopt=-bank
+-lang=c99
+-utf8
+-nomessage
+-output=obj
+-obj_path="src/smc_gen/r_bsp/mcu/all"
+-debug
+-outcode=utf8
+-tfu=intrinsic
+-tfu_version=v2
+-nologo
