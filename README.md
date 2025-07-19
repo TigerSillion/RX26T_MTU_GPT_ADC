@@ -1,2 +1,4 @@
 # RX26T_MTU_GPT_ADC
+DAC输出正弦波
+ADC采样更新
 
